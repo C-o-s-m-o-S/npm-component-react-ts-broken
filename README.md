@@ -1,6 +1,6 @@
-# TypeScript Components
+# TypeScript Components (Broken)
 
-This repository was created as part of a guide to publishing TypeScript React components. You can read the guide over here: [Publishing TypeScript React components to NPM](https://fildon.hashnode.dev/publishing-typescript-react-components-to-npm)
+This repository was created as part of a guide to publishing TypeScript React components.
 
 ## Getting Started
 
