@@ -1,7 +1,7 @@
 import * as React from "react";
 import classNames from 'classnames';
 import logo from './../../static/logo.svg';
-// import styles from './styles.module.scss';
+// import '../../static/styles.css';
 
 export function Counter() {
   const [count, setCount] = React.useState(0);
@@ -17,8 +17,8 @@ export function Counter() {
 
   return (
     <>
-      <p className={wrapperClasses} >You clicked {count} times</p>
-      <img src={logo} className="App-logo" alt="logo" />
+      <p className={wrapperClasses} >You clicked {count} times v5</p>
+      <img src={logo} className="component-logo" alt="logo" />
       <button onClick={onClick}>Click me</button>
     </>
   );
