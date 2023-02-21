@@ -1,6 +1,6 @@
 {
   "name": "npm-component-react-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple component library to demonstrate publishing to npm",
   "main": "index.js",
   "scripts": {

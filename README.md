@@ -17,3 +17,13 @@ import { Counter } from "npm-component-react-ts";
 ```
 
 You can then render the `Counter` component like any other React component in JSX.
+
+
+## Publish to NPM
+
+```shell
+npm login
+cd dist
+npm publish
+```
+
