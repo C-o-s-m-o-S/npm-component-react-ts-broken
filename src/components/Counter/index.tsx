@@ -1,6 +1,7 @@
 import * as React from "react";
 import classNames from 'classnames';
 import logo from './../../static/logo.svg';
+import styles from './styles.module.scss';
 // import '../../static/styles.css';
 
 export function Counter() {
@@ -8,7 +9,7 @@ export function Counter() {
 
   const wrapperClasses = classNames(
 		'custom-my-class',
-		// styles.wrapper,
+		styles.wrapper,
 	);
 
   const onClick = () => {
@@ -17,7 +18,7 @@ export function Counter() {
 
   return (
     <>
-      <p className={wrapperClasses} >You clicked {count} times v5</p>
+      <p className={wrapperClasses} >You clicked {count} times v6</p>
       <img src={logo} className="component-logo" alt="logo" />
       <button onClick={onClick}>Click me</button>
     </>

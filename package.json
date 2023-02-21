@@ -1,11 +1,12 @@
 {
-  "name": "DDDDnpm-component-react-ts",
-  "version": "1.0.0",
+  "name": "npm-component-react-ts",
+  "version": "1.0.1",
   "description": "A simple component library to demonstrate publishing to npm",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "npm run clean && tsc && cp package.json README.md ./dist && copyfiles ./static/** ./dist && copyfiles ./styles/** ./dist"
+    "build": "npm run clean && tsc && npm run copy:files",
+    "copy:files": "cp package.json README.md ./dist && copyfiles ./static/** ./dist && copyfiles ./styles/** ./dist && cp src/components/Counter/styles.module.scss ./dist/components/Counter"
   },
   "repository": {
     "type": "git",
